@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Fast food Shop Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff4f8;
+            text-align: center;
+            color: #4105c4;
+        }
+
+        h1 {
+            color: #13040c;
+            font-size: 36px;
+        }
+
+        h1+p {
+            color: #8a2be2;
+            font-weight: bold;
+            background-color: #ffe3f1;
+            border-radius: 10px;
+        }
+
+        .shop-description::first-letter {
+            font-size: 36px;
+            color: #ff1493;
+            font-weight: bold;
+        }
+
+        .menu-box {
+            width: 420px;
+            background-color: white;
+            border: 3px solid #ff69b4;
+            border-radius: 15px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        ul>li {
+            list-style: none;
+            background-color: #fff0f5;
+            color: #5c2a4a;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px;
+            padding: 12px;
+            border-radius: 10px;
+            border: 2px solid #ffb6c1;
+        }
+
+        ul>li:nth-child(3) {
+            background-color: #fff3cd;
+            color: #b85c00;
+            border: 3px solid #ffa500;
+        }
+
+        ul>li:hover {
+            background-color: #ff69b4;
+            color: white;
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+
+        button {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #8a2be2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Fast Food Shop Menu</h1>
+    <p>Welcome to Boss of Taste</p>
+    <p class="shop-description">
+        We serve Tasty,Spicy,fiery and Healthy Fast food.
+    </p>
+    <div class="menu-box">
+        <h2>Today's Fast Food Menu</h2>
+        <ul>
+            <li>Chowmein</li>
+            <li>Schwann Fried Rice</li>
+            <li>Gobhi Manchurian - Today's Special</li>
+            <li>Chessy Pizza</li>
+            <li>Schezwan Noodles Manchurian Frankie</li>
+        </ul>
+        <button>Order Now</button>
+    </div>
+</body>
+
+</html>
