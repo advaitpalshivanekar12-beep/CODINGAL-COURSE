@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays and Loops</title>
+</head>
+<body>
+    <p id="result"></p>
+    <ol id="fruits">
+
+    </ol>
+    <script>
+        let fruits=["Apple","Watermelon "," Grapes "];
+        console.log(fruits);
+        document.getElementById("result").innerHTML=fruits;  
+        let items=" ";
+        
+        for(let i =0; i < fruits.length;i++){
+
+    items +="<li>" + fruits[i]+ "</li>";    
+
+        }
+        document.getElementById("fruits").innerHTML=items;
+
+    </script>
+    
+</body>
+</html>
