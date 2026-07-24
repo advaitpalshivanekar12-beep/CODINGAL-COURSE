@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<button onclick ="add(55,45)">Click Me! </button>
+<button onclick="changecolor()">
+    Change Color to Red
+</button>
+    <p id="myPara"></p>
+
+
+    <script>
+        //  define
+        function add(x, y) {
+            document.getElementById("myPara").innerHTML = x + y;
+            // document.write(x + y);
+
+        }
+
+        function changecolor(){
+             document.getElementById("myPara").style.color="red";
+       }
+    </script>
+</body>
+
+</html>
