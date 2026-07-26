@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="join-output"></p>
+    <p id="pop-1"></p>
+    <p id="pop-2"></p>
+    <script>
+        let grocerylist=["Pro","Cricket Bat","Cricket Worldcup","Samsung Z fold 8", "Rohit Sharma"];
+
+     //   let joinedlist=grocerylist.join("👽");
+
+        let joinedlist = grocerylist.join("<BR>");
+
+
+        document.getElementById("join-output").innerHTML=joinedlist;
+
+        
+        grocerylist.pop();
+         document.getElementById("pop-1").innerHTML = grocerylist;
+        
+
+        grocerylist.pop();
+        
+         document.getElementById("pop-2").innerHTML = grocerylist;
+        
+
+        
+    </script>
+    
+</body>
+</html>
